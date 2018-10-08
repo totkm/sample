@@ -1,0 +1,29 @@
+기본 명령어
+pwd : 현재 디렉터리 위치 확인
+cd [PATH] : PATH로 이동 ex) cd Desktop/firebaseHosting/
+
+Firebase
+
+1. 코딩 작업
+2. terminal
+3. cd Desktop/firebaseHosting/
+4. firebase deploy
+
+EC2 서버 접속 시
+1. 코딩 작업
+2. terminal
+3. cd Desktop/
+4. ssh -i "wlrudals.pem" ubuntu@ec2-52-79-242-76.ap-northeast-2.compute.amazonaws.com
+5. cd /var/www/html
+
+EC2 코드 올리기
+1. 코딩 작업
+2. FileZilla
+3. 왼쪽 상단 서버 아이콘 클릭
+4. 연결 버튼
+5. 리모트 사이트 경로 -> /var/www/html
+6. 로컬 사이트 경로를 코딩 작업한 경로로 이동
+7. 작업한 파일 드래그 앤 드롭으로 업로드
+8. index.html -> index.nginx-debian.html 바꾸기
+
+
